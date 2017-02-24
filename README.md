@@ -38,7 +38,7 @@ A synced folder is a folder which is accessible from the host and from the virtu
 By default, Vagrant creates a synced folder in the virtual machine in `/vagrant` which maps to the directory where the vagrant box is in (the alliander_vm folder in this case).
 
 # Provisioning
-A virtual machine can be provisioned with additional software by Vagrant. This can be done using a Shell script, but Pupper, Chef, Ansible, Salt and Docker are also supported.  
+A virtual machine can be provisioned with additional software by Vagrant. This can be done using a Shell script, but Puppet, Chef, Ansible, Salt and Docker are also supported.  
 To provision Apache, create a shell script named `bootstrap.sh` like:
 ```
 #!/usr/bin/env bash
