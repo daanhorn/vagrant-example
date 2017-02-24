@@ -17,8 +17,8 @@ In Vagrant, virtual machines are based on `boxes`. A `box` is a base image, simi
   
 Open Command Prompt and run:
 ```console
-mkdir alliander_vm
-cd alliander_vm
+mkdir vagrant_example
+cd vagrant_example
 vagrant init box-cutter/ubuntu1604-desktop
 ```
 
@@ -31,7 +31,7 @@ To start the virtual machine, simply run:
 vagrant up --provider virtualbox
 ```
 
-This might take a while the first time, since the box has to be downloaded.  
+This might take a while the first time, since the box has to be downloaded. Note that the postfix `--provider virtualbox` is useful when multiple providers are installed on your system, but could be left out if that's not the case.  
 
 # Synced folders
 A synced folder is a folder which is accessible from the host and from the virtual machine, so that files can be shared between the both.  
