@@ -12,6 +12,8 @@ Go to https://www.virtualbox.org/wiki/Downloads and download and use the install
 
 To run the virtual machine, simply clone this repository and run `vagrant up` from the directory where the repository is cloned.
 
+Note that the virtual machine has it's hardware settings set very low. It is advisable to increase the base memory and processors (cores) in VirtualBox for this image. Next to that is useful to add a optical drive, so that the VirtualBox Guest Additions cd image can be loaded to install the VirtualBox Guest Additions using VirtualBox.  
+
 # Create virtual machine yourself
 In Vagrant, virtual machines are based on `boxes`. A `box` is a base image, similar to a base image in Docker.  
   
